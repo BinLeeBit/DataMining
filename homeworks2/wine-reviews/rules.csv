@@ -1,0 +1,29 @@
+frontAtrri,frontValue,backAttri,backValue,sup,conf,lift,consine
+taster_twitter_handle,@vboone,taster_name,Virginie Boone,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Virginie Boone,taster_twitter_handle,@vboone,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.0,0.5350028256389513
+taster_name,Paul Gregutt,taster_twitter_handle,@paulgwine ,0.2667820990942994,1.0,3.7483774338492264,1.0
+taster_twitter_handle,@paulgwine ,taster_name,Paul Gregutt,0.2667820990942994,1.0,3.7483774338492264,1.0
+province,Washington,country,US,0.2613656544130705,1.0,1.0,0.5112393318330178
+province,California,country,US,0.5764961818504706,1.0,1.0,0.7592734565691538
+taster_twitter_handle,@vboone,province,California,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+taster_twitter_handle,@paulgwine ,country,US,0.2667820990942994,1.0,1.0,0.5165095343692112
+taster_name,Paul Gregutt,country,US,0.2667820990942994,1.0,1.0,0.5165095343692112
+taster_name,Virginie Boone,province,California,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,1.0,0.5350028256389513
+taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Paul Gregutt,country,US,0.2667820990942994,1.0,3.7483774338492264,1.0
+taster_twitter_handle,@paulgwine ,country,US,0.2667820990942994,1.0,3.7483774338492264,1.0
+taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+taster_twitter_handle,@vboone,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Virginie Boone,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+province,California,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+province,California,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+country,US,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
+country,US,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
+country,US,province,California,0.5764961818504706,0.5764961818504706,1.0,0.7592734565691538
