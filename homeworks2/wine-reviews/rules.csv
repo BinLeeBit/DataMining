@@ -1,29 +1,57 @@
-frontAtrri,frontValue,backAttri,backValue,sup,conf,lift,consine
-taster_twitter_handle,@vboone,taster_name,Virginie Boone,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Virginie Boone,taster_twitter_handle,@vboone,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.0,0.5350028256389513
-taster_name,Paul Gregutt,taster_twitter_handle,@paulgwine ,0.2667820990942994,1.0,3.7483774338492264,1.0
-taster_twitter_handle,@paulgwine ,taster_name,Paul Gregutt,0.2667820990942994,1.0,3.7483774338492264,1.0
-province,Washington,country,US,0.2613656544130705,1.0,1.0,0.5112393318330178
-province,California,country,US,0.5764961818504706,1.0,1.0,0.7592734565691538
-taster_twitter_handle,@vboone,province,California,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
-taster_twitter_handle,@paulgwine ,country,US,0.2667820990942994,1.0,1.0,0.5165095343692112
-taster_name,Paul Gregutt,country,US,0.2667820990942994,1.0,1.0,0.5165095343692112
-taster_name,Virginie Boone,province,California,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
-taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,1.0,0.5350028256389513
-taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Paul Gregutt,country,US,0.2667820990942994,1.0,3.7483774338492264,1.0
-taster_twitter_handle,@paulgwine ,country,US,0.2667820990942994,1.0,3.7483774338492264,1.0
-taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
-taster_twitter_handle,@vboone,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Virginie Boone,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
-taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
-province,California,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-province,California,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-country,US,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
-country,US,province,California,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_twitter_handle,@vboone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-taster_name,Virginie Boone,country,US,0.2862280234416622,1.0,3.493718008375989,1.0
-country,US,province,California,0.5764961818504706,0.5764961818504706,1.0,0.7592734565691538
+frontItem,backItem,rulesItem,sup,conf,lift,cosine
+"[('taster_twitter_handle', '@vboone')]","[('country', 'US')]","[('taster_twitter_handle', '@vboone'), ('country', 'US')]",0.2862280234416622,1.0,1.0,0.5350028256389513
+"[('variety', 'Pinot Noir')]","[('country', 'US')]","[('variety', 'Pinot Noir'), ('country', 'US')]",0.2133280056828272,1.0,1.0,0.4618744479648416
+"[('region_2', 'Columbia Valley')]","[('province', 'Washington')]","[('region_2', 'Columbia Valley'), ('province', 'Washington')]",0.24729177765938554,1.0,3.826057414642432,0.9727037264726601
+"[('taster_twitter_handle', '@paulgwine\xa0')]","[('taster_name', 'Paul Gregutt')]","[('taster_twitter_handle', '@paulgwine\xa0'), ('taster_name', 'Paul Gregutt')]",0.2667820990942994,1.0,3.7483774338492264,1.0
+"[('taster_name', 'Paul Gregutt')]","[('taster_twitter_handle', '@paulgwine\xa0')]","[('taster_name', 'Paul Gregutt'), ('taster_twitter_handle', '@paulgwine\xa0')]",0.2667820990942994,1.0,3.7483774338492264,1.0
+"[('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone'), ('taster_name', 'Virginie Boone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone'), ('taster_twitter_handle', '@vboone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('province', 'California')]","[('country', 'US')]","[('province', 'California'), ('country', 'US')]",0.5764961818504706,1.0,1.0,0.7592734565691538
+"[('taster_twitter_handle', '@mattkettmann')]","[('province', 'California')]","[('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]",0.20138518913159298,1.0,1.7346168656141703,0.5910381929728067
+"[('taster_twitter_handle', '@paulgwine\xa0')]","[('country', 'US')]","[('taster_twitter_handle', '@paulgwine\xa0'), ('country', 'US')]",0.2667820990942994,1.0,1.0,0.5165095343692112
+"[('province', 'Washington')]","[('country', 'US')]","[('province', 'Washington'), ('country', 'US')]",0.2613656544130705,1.0,1.0,0.5112393318330178
+"[('taster_name', 'Matt Kettmann')]","[('country', 'US')]","[('taster_name', 'Matt Kettmann'), ('country', 'US')]",0.20138518913159298,1.0,1.0,0.44875961174284945
+"[('region_2', 'Central Coast')]","[('province', 'California')]","[('region_2', 'Central Coast'), ('province', 'California')]",0.21057538625466168,1.0,1.7346168656141703,0.6043737390725663
+"[('taster_name', 'Virginie Boone')]","[('province', 'California')]","[('taster_name', 'Virginie Boone'), ('province', 'California')]",0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+"[('taster_name', 'Virginie Boone')]","[('country', 'US')]","[('taster_name', 'Virginie Boone'), ('country', 'US')]",0.2862280234416622,1.0,1.0,0.5350028256389513
+"[('taster_name', 'Matt Kettmann')]","[('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('province', 'California')]",0.20138518913159298,1.0,1.7346168656141703,0.5910381929728067
+"[('taster_name', 'Paul Gregutt')]","[('country', 'US')]","[('taster_name', 'Paul Gregutt'), ('country', 'US')]",0.2667820990942994,1.0,1.0,0.5165095343692112
+"[('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann')]","[('taster_twitter_handle', '@mattkettmann'), ('taster_name', 'Matt Kettmann')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann')]","[('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('taster_twitter_handle', '@mattkettmann')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_twitter_handle', '@mattkettmann')]","[('country', 'US')]","[('taster_twitter_handle', '@mattkettmann'), ('country', 'US')]",0.20138518913159298,1.0,1.0,0.44875961174284945
+"[('taster_twitter_handle', '@vboone')]","[('province', 'California')]","[('taster_twitter_handle', '@vboone'), ('province', 'California')]",0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+"[('region_2', 'Columbia Valley')]","[('country', 'US')]","[('region_2', 'Columbia Valley'), ('country', 'US')]",0.24729177765938554,1.0,1.0,0.49728440319336936
+"[('region_2', 'Central Coast')]","[('country', 'US')]","[('region_2', 'Central Coast'), ('country', 'US')]",0.21057538625466168,1.0,1.0,0.4588849379252512
+"[('taster_name', 'Virginie Boone')]","[('country', 'US'), ('province', 'California')]","[('taster_name', 'Virginie Boone'), ('country', 'US'), ('province', 'California')]",0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+"[('taster_twitter_handle', '@paulgwine\xa0')]","[('country', 'US'), ('taster_name', 'Paul Gregutt')]","[('taster_twitter_handle', '@paulgwine\xa0'), ('country', 'US'), ('taster_name', 'Paul Gregutt')]",0.2667820990942994,1.0,3.7483774338492264,1.0
+"[('taster_name', 'Paul Gregutt')]","[('country', 'US'), ('taster_twitter_handle', '@paulgwine\xa0')]","[('taster_name', 'Paul Gregutt'), ('country', 'US'), ('taster_twitter_handle', '@paulgwine\xa0')]",0.2667820990942994,1.0,3.7483774338492264,1.0
+"[('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('province', 'California')]","[('taster_twitter_handle', '@mattkettmann'), ('taster_name', 'Matt Kettmann'), ('province', 'California')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann')]","[('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_twitter_handle', '@vboone')]","[('country', 'US'), ('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone'), ('country', 'US'), ('taster_name', 'Virginie Boone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone')]","[('country', 'US'), ('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone'), ('country', 'US'), ('taster_twitter_handle', '@vboone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('region_2', 'Central Coast')]","[('country', 'US'), ('province', 'California')]","[('region_2', 'Central Coast'), ('country', 'US'), ('province', 'California')]",0.21057538625466168,1.0,1.7346168656141703,0.6043737390725663
+"[('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone'), ('province', 'California')]","[('taster_twitter_handle', '@vboone'), ('taster_name', 'Virginie Boone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone'), ('province', 'California')]","[('taster_name', 'Virginie Boone'), ('taster_twitter_handle', '@vboone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('region_2', 'Columbia Valley')]","[('country', 'US'), ('province', 'Washington')]","[('region_2', 'Columbia Valley'), ('country', 'US'), ('province', 'Washington')]",0.24729177765938554,1.0,3.826057414642432,0.9727037264726601
+"[('taster_twitter_handle', '@vboone')]","[('country', 'US'), ('province', 'California')]","[('taster_twitter_handle', '@vboone'), ('country', 'US'), ('province', 'California')]",0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+"[('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('country', 'US')]","[('taster_twitter_handle', '@mattkettmann'), ('taster_name', 'Matt Kettmann'), ('country', 'US')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann')]","[('country', 'US'), ('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('country', 'US'), ('taster_twitter_handle', '@mattkettmann')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_twitter_handle', '@mattkettmann')]","[('country', 'US'), ('province', 'California')]","[('taster_twitter_handle', '@mattkettmann'), ('country', 'US'), ('province', 'California')]",0.20138518913159298,1.0,1.7346168656141703,0.5910381929728067
+"[('taster_name', 'Matt Kettmann')]","[('country', 'US'), ('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('country', 'US'), ('province', 'California')]",0.20138518913159298,1.0,1.7346168656141703,0.5910381929728067
+"[('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('country', 'US')]","[('taster_twitter_handle', '@mattkettmann'), ('province', 'California'), ('taster_name', 'Matt Kettmann'), ('country', 'US')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('country', 'US'), ('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('province', 'California')]","[('country', 'US'), ('taster_twitter_handle', '@mattkettmann'), ('taster_name', 'Matt Kettmann'), ('province', 'California')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann'), ('province', 'California')]","[('country', 'US'), ('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('province', 'California'), ('country', 'US'), ('taster_twitter_handle', '@mattkettmann')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann'), ('taster_twitter_handle', '@mattkettmann')]","[('country', 'US'), ('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('taster_twitter_handle', '@mattkettmann'), ('country', 'US'), ('province', 'California')]",0.20138518913159298,1.0,1.7346168656141703,0.5910381929728067
+"[('taster_name', 'Matt Kettmann'), ('country', 'US')]","[('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]","[('taster_name', 'Matt Kettmann'), ('country', 'US'), ('taster_twitter_handle', '@mattkettmann'), ('province', 'California')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('country', 'US'), ('province', 'California')]","[('taster_twitter_handle', '@mattkettmann'), ('taster_name', 'Matt Kettmann'), ('country', 'US'), ('province', 'California')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_name', 'Matt Kettmann')]","[('country', 'US'), ('province', 'California'), ('taster_twitter_handle', '@mattkettmann')]","[('taster_name', 'Matt Kettmann'), ('country', 'US'), ('province', 'California'), ('taster_twitter_handle', '@mattkettmann')]",0.20138518913159298,1.0,4.965608465608465,1.0
+"[('taster_twitter_handle', '@vboone'), ('province', 'California')]","[('country', 'US'), ('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone'), ('province', 'California'), ('country', 'US'), ('taster_name', 'Virginie Boone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone'), ('province', 'California')]","[('country', 'US'), ('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone'), ('province', 'California'), ('country', 'US'), ('taster_twitter_handle', '@vboone')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone'), ('taster_twitter_handle', '@vboone')]","[('country', 'US'), ('province', 'California')]","[('taster_name', 'Virginie Boone'), ('taster_twitter_handle', '@vboone'), ('country', 'US'), ('province', 'California')]",0.2862280234416622,1.0,1.7346168656141703,0.704624692210907
+"[('country', 'US'), ('taster_twitter_handle', '@vboone')]","[('taster_name', 'Virginie Boone'), ('province', 'California')]","[('country', 'US'), ('taster_twitter_handle', '@vboone'), ('taster_name', 'Virginie Boone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('country', 'US'), ('taster_name', 'Virginie Boone')]","[('taster_twitter_handle', '@vboone'), ('province', 'California')]","[('country', 'US'), ('taster_name', 'Virginie Boone'), ('taster_twitter_handle', '@vboone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_twitter_handle', '@vboone')]","[('country', 'US'), ('taster_name', 'Virginie Boone'), ('province', 'California')]","[('taster_twitter_handle', '@vboone'), ('country', 'US'), ('taster_name', 'Virginie Boone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('taster_name', 'Virginie Boone')]","[('country', 'US'), ('taster_twitter_handle', '@vboone'), ('province', 'California')]","[('taster_name', 'Virginie Boone'), ('country', 'US'), ('taster_twitter_handle', '@vboone'), ('province', 'California')]",0.2862280234416622,1.0,3.493718008375989,1.0
+"[('province', 'Washington')]","[('region_2', 'Columbia Valley')]","[('province', 'Washington'), ('region_2', 'Columbia Valley')]",0.24729177765938554,0.9461525394937997,3.826057414642432,0.9727037264726601
+"[('province', 'Washington')]","[('country', 'US'), ('region_2', 'Columbia Valley')]","[('province', 'Washington'), ('country', 'US'), ('region_2', 'Columbia Valley')]",0.24729177765938554,0.9461525394937997,3.826057414642432,0.9727037264726601
+"[('country', 'US')]","[('province', 'California')]","[('country', 'US'), ('province', 'California')]",0.5764961818504706,0.5764961818504706,1.0,0.7592734565691538

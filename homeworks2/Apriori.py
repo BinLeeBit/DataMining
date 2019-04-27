@@ -9,7 +9,7 @@ class Data():
         # self.srcData = pd.read_csv(self.dataPath + 'new_winemag-data_first150k.csv')
         self.srcData = pd.read_csv(self.dataPath + 'new_winemag-data-130k-v2.csv')
         self.dataTuple = []
-        self.minSup = 0.25  # 最小支持度
+        self.minSup = 0.2  # 最小支持度
         self.minConf = 0.5  # 最小置信度
 
     def set_dataTuple(self):
@@ -138,14 +138,14 @@ class Data():
         # 以support降序排列
         dataWrit = []
         for (key, value) in support_data_out:
+            if value < self.minSup: continue
             set_result = list(key)
-            dataWrit.append((set_result[0][0],set_result[0][1],value))
+            dataWrit.append((set_result,value))
         _data = pd.DataFrame(dataWrit)
         # print(_data)
-        csv_headers = ['attribute', 'attributeValue','sup']
+        csv_headers = ['freItems','sup']
         _data.to_csv(freq_set_file, header=csv_headers, index=False, mode='a+', encoding='utf-8')
         freq_set_file.close()
-
         # 获取强关联规则列表
         big_rules_list = self.generate_rules(freq_set, support_data)
         big_rules_list = sorted(big_rules_list, key= lambda x:x[3], reverse=True)
@@ -156,10 +156,10 @@ class Data():
             X_set, Y_set, sup, conf, lift, consine = result
             pre = list(X_set)
             post = list(Y_set)
-            dataRulesWrit.append((pre[0][0],pre[0][1],post[0][0],post[0][1],sup,conf,lift,consine))
+            dataRulesWrit.append((pre,post,pre + post,sup,conf,lift,consine))
         _dataRules = pd.DataFrame(dataRulesWrit)
         # print(_data)
-        csv_headers = ['frontAtrri', 'frontValue', 'backAttri','backValue','sup','conf','lift','consine']
+        csv_headers = ['frontItem', 'backItem','rulesItem','sup','conf','lift','cosine']
         _dataRules.to_csv(rules_file, header=csv_headers, index=False, mode='a+', encoding='utf-8')
         rules_file.close()
 
